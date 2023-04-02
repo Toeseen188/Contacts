@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Edit Contact
+{% endblock %}
+
+{% block content %}
+<h2>Edit Contact</h2>
+{% if message %}
+<p class="message">{{ message }}</p>
+{% endif %}
+<form method="POST">
+    <label for="name">Name:</label>
+    <input type="text" name="name" required value="{{ contact_name }}">
+    <label for="phone">Phone:</label>
+    <input type="text" name="phone" value="{{ contact_info["phone"] }}">
+    <label for="email">Email:</label>
+    <input type="email" name="email" value="{{ contact_info["email"] }}">
+    <button type="submit">Save Changes</button>
+</form>
+{% endblock %}
+

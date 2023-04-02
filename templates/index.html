@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Contact Book
+{% endblock %}
+
+{% block content %}
+<h2>All Contacts</h2>
+    {% if message %}
+    <p>{{ message }}</p>
+    {% endif %}
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for name, info in contacts.items() %}
+        <tr>
+            <td>{{ name }}</td>
+            <td>{{ info["phone"] }}</td>
+            <td>{{ info["email"] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
+
