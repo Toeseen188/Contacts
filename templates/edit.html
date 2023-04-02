@@ -1,22 +1,20 @@
-{% extends 'base.html' %}
-
-{% block title %}
-Edit Contact
-{% endblock %}
-
-{% block content %}
-<h2>Edit Contact</h2>
-{% if message %}
-<p class="message">{{ message }}</p>
-{% endif %}
-<form method="POST">
-    <label for="name">Name:</label>
-    <input type="text" name="name" required value="{{ contact_name }}">
-    <label for="phone">Phone:</label>
-    <input type="text" name="phone" value="{{ contact_info["phone"] }}">
-    <label for="email">Email:</label>
-    <input type="email" name="email" value="{{ contact_info["email"] }}">
-    <button type="submit">Save Changes</button>
-</form>
-{% endblock %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Edit Contact</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Edit Contact: {{ name }}</h1>
+    <form method="post" action="/edit/{{ name }}">
+        <label>Email:</label><br>
+        <input type="email" name="email" value="{{ email }}"><br>
+        <label>Phone:</label><br>
+        <input type="tel" name="phone" value="{{ phone }}"><br>
+        <br>
+        <input type="submit" value="Save Changes">
+    </form>
+</body>
+</html>
 

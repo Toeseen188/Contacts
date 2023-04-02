@@ -1,31 +1,46 @@
-{% extends 'base.html' %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Contact Book</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        /* Add some styles to make the table look nice */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Book</h1>
+    <h2>Add a Contact</h2>
+    <form method="post" action="/add">
+        <label>Name:</label><br>
+        <input type="text" name="name"><br>
+        <label>Email:</label><br>
+        <input type="email" name="email"><br>
+        <label>Phone:</label><br>
+        <input type="tel" name="phone"><br>
+        <br>
+        <input
+   <input type="submit" value="Add Contact">
+	</form>
 
-{% block title %}
-Contact Book
-{% endblock %}
-
-{% block content %}
-<h2>All Contacts</h2>
-    {% if message %}
-    <p>{{ message }}</p>
-    {% endif %}
-<table>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Phone</th>
-            <th>Email</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for name, info in contacts.items() %}
-        <tr>
-            <td>{{ name }}</td>
-            <td>{{ info["phone"] }}</td>
-            <td>{{ info["email"] }}</td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
-{% endblock %}
-
+<h2>Contacts</h2>
+{{ contacts_table|safe }}
+</body>
+</html>
