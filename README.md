@@ -27,7 +27,7 @@ Once you have the Contact Book application up and running, you can use it to man
 - **Delete a contact:** Click the "Delete" button next to a contact in the table to remove them from your list. You will be asked to confirm before the contact is deleted.
 
 ## Contributing
-If you find a bug in the Contact Book application or have an idea for a new feature, feel free to submit an issue or pull request on the project's [GitHub repository](https://github.com/your-username/contact-book). We welcome contributions from the community and appreciate your help in improving the Contact Book application.
+If you find a bug in the Contact Book application or have an idea for a new feature, feel free to submit an issue or pull request on the project's [GitHub repository](https://github.com/Toeseen188/contact-book). We welcome contributions from the community and appreciate your help in improving the Contact Book application.
 
 ## Related projects
 If you are interested in other projects that use Flask and HTML/CSS, you might want to check out these related projects:
