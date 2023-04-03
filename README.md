@@ -7,7 +7,7 @@ Contact Book is a simple web application built using Flask and HTML/CSS that all
 
 For more information on the development of this project, check out [this blog post](https://) that discusses the features and design decisions of Contact Book.
 
-The project was developed by [HAMMED TOSIN](https://www.linkedin.com/in/hammed-tosin/)
+The project was developed by [HAMMED TOSIN](https://linkedin.com/in/hammed-tosin-72774b230)
 
 ## Installation
 To run the Contact Book application on your local machine, follow these steps:
