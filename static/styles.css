@@ -1,0 +1,86 @@
+/* Add some styles to make the page look nice */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+h1, h2 {
+    color: #222;
+    margin-top: 30px;
+    text-align: center;
+}
+label {
+    display: inline-block;
+    width: 100px;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+.delete-button, .edit-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.delete-button:hover, .edit-button:hover {
+    background-color: #c2c2c2;
+}
+.edit-button {
+    background-color: #4CAF50;
+    color: #fff;
+}
+.edit-button:hover {
+    background-color: #3e8e41;
+}
+
