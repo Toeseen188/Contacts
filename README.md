@@ -3,9 +3,9 @@
 ## Introduction
 Contact Book is a simple web application built using Flask and HTML/CSS that allows users to store and manage their contacts. Users can add new contacts, delete existing ones, and edit contact information as needed. The application also includes a simple search function to help users find specific contacts quickly.
 
-[Here](https://localhost:5000/) is a link to the deployed site, where you can try out the Contact Book application for yourself.
+[Here](http://toeseen.pythonanywhere.com/) is a link to the deployed site, where you can try out the Contact Book application for yourself.
 
-For more information on the development of this project, check out [this blog post](https://) that discusses the features and design decisions of Contact Book.
+For more information on the development of this project, check out [this blog post](https://docs.google.com/document/d/e/2PACX-1vQ6AqMlX6PwQEK8TByAFOsQwsym1Sx8-49iFGVIuRYmpxTndOIFWorWG3bYSvTvNX-LbkA9tC9msNlG/pub) that discusses the features and design decisions of Contact Book.
 
 The project was developed by [HAMMED TOSIN](https://linkedin.com/in/hammed-tosin-72774b230)
 
