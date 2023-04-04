@@ -5,14 +5,14 @@ Contact Book is a simple web application built using Flask and HTML/CSS that all
 
 [Here](http://toeseen.pythonanywhere.com/) is a link to the deployed site, where you can try out the Contact Book application for yourself.
 
-For more information on the development of this project, check out [this blog post](https://docs.google.com/document/d/e/2PACX-1vQ6AqMlX6PwQEK8TByAFOsQwsym1Sx8-49iFGVIuRYmpxTndOIFWorWG3bYSvTvNX-LbkA9tC9msNlG/pub) that discusses the features and design decisions of Contact Book.
+For more information on the development of this project, check out [this blog post](https://medium.com/@hammedtosin188/building-a-contact-book-web-application-with-flask-and-html-css-fd4787a2a261) that discusses the features and design decisions of Contact Book.
 
 The project was developed by [HAMMED TOSIN](https://linkedin.com/in/hammed-tosin-72774b230)
 
 ## Installation
 To run the Contact Book application on your local machine, follow these steps:
 
-1. Clone the repository to your local machine: `git clone https://github.com/your-username/contact-book.git`
+1. Clone the repository to your local machine: `git clone https://github.com/Toeseen188/contact-book.git`
 2. Navigate to the project directory: `cd contact-book`
 3. Install the required Python packages: `pip install -r requirements.txt`
 4. Run the Flask application: `python app.py`
